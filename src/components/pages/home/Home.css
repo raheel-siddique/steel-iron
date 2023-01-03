@@ -1,0 +1,110 @@
+.home_main_box {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.hero_left_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero_right_sec_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgae_hero_description_first {
+
+    /* width: 500px; */
+    /* height: 46px; */
+
+    /* Body/Lora/Body-P */
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    letter-spacing: 0.02em;
+
+    /* Text/Description */
+
+    color: silver;
+    /* color: white; */
+
+
+    /* Inside auto layout */
+
+}
+
+.imgae_hero_heading_first {
+    /* width: 546px; */
+    /* height: 106px; */
+
+    /* Heading/SF/H2-P */
+    /* color: #fb982f; */
+    color: white;
+    /* text-shadow: 2px 2px 10px silver; */
+    text-transform: capitalize;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+
+
+    /* Text/Primary */
+
+
+
+    /* Inside auto layout */
+}
+
+.own_btn_getStart {
+    /* background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%); */
+    background-color: #FABF3A;
+    color: black;
+    box-shadow: 1px 1px 5px silver;
+
+    /* box-shadow: 1px 1px 7px silver; */
+}
+
+@media (max-width: 767px) {
+    .home_main_box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tokenstext {
+        text-align: center;
+        /* width: 100px; */
+        /* background-color:rebeccapurple; */
+        overflow-x: hidden;
+
+    }
+
+    .tokenstext1 {
+        text-align: center;
+        /* width: 100px; */
+        /* background-color:rebeccapurple; */
+        overflow-x: hidden;
+
+    }
+
+    .fmbdevice {
+        font-size: 10px;
+        color: red;
+    }
+
+    .forcolordivmbdev {
+        background-color: rgb(101, 181, 250);
+
+    }
+
+}
