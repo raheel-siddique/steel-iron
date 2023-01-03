@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/steel-iron/static/css/main.c3370e08.css",
+    "main.js": "/steel-iron/static/js/main.a824aa11.js",
+    "static/media/sell-house-buy-house-house-model-hand-blue-background-payment-real-estate-banner-theme-sell-house-buy-222099584.jpg": "/steel-iron/static/media/sell-house-buy-house-house-model-hand-blue-background-payment-real-estate-banner-theme-sell-house-buy-222099584.b327fe9097504b1284b7.jpg",
+    "index.html": "/steel-iron/index.html",
+    "main.c3370e08.css.map": "/steel-iron/static/css/main.c3370e08.css.map",
+    "main.a824aa11.js.map": "/steel-iron/static/js/main.a824aa11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3370e08.css",
+    "static/js/main.a824aa11.js"
+  ]
+}
