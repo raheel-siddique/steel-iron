@@ -21,7 +21,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-1"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What is a blockchain?
                     </h6>
@@ -102,7 +102,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-2"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       Top blockchain benefits
                     </h6>
@@ -173,7 +173,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-3"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What is the mechanism behind blockchain?
                     </h6>
@@ -237,7 +237,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-4"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       Blockchain versions
                     </h6>
@@ -280,7 +280,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-5"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       Who invented the blockchain?
                     </h6>
@@ -337,7 +337,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-6"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What does the future hold for blockchain technology?
                     </h6>
@@ -380,7 +380,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-7"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What is SmartCrowd?
                     </h6>
@@ -425,7 +425,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-8"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What is the difference between SmartCrowd and
                       SmartCrowdTokens?
@@ -458,7 +458,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-9"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What’s the difference between SmartCrowdToken Inc. and
                       SmartCrowdoken LLC?
@@ -512,7 +512,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-10"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What exactly is a token? What is the meaning of the term
                       "tokenization"?
@@ -566,10 +566,36 @@ const FaqV1 = () => {
                         </p>
                         <p>
                           Tokenization is the process by which a 'off-chain
-                          asset' is transformed into a 'on-chain asset.' Being
-                          incorporated in the Ethereum blockchain is referred to
-                          as being "on-chain." This is a procedure that
-                          necessitates legal framework and compliance and is
+                          asset' is transformedaria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expanded
+aria-expandedamework and compliance and is
                           unique to each jurisdiction and asset class.
                         </p>
                       </div>
@@ -678,7 +704,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-13"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What criteria are used to choose properties for inventory?
                     </h6>
@@ -747,7 +773,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-15"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       Who is the owner of the house deed?
                     </h6>
@@ -822,7 +848,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-17"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       Who is responsible for managing the properties?
                     </h6>
@@ -926,7 +952,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-19"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What if the tenant fails to pay the rent?
                     </h6>
@@ -990,7 +1016,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-21"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       Who is eligible to invest with SmartCrowd?
                     </h6>
@@ -1060,7 +1086,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-23"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What is the procedure of purchase? How much time does it
                       take?
@@ -1187,7 +1213,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-25"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What method do I use to obtain my rental income?
                     </h6>
@@ -1278,7 +1304,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-27"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       How do I convert my USDC to fiat money?
                     </h6>
@@ -1405,7 +1431,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-29"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       What can I do with the Tokens I owned?
                     </h6>
@@ -1487,7 +1513,7 @@ const FaqV1 = () => {
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-31"
-                      aria-expanded="false"
+                      // aria-expanded="false"
                     >
                       How the token price will change?
                     </h6>

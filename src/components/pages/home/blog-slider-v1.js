@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 class BlogSlider extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
+    // let publicUrl = process.env.PUBLIC_URL + "/";
     let customClass = this.props.customClass ? this.props.customClass : "";
     let sectionClass = this.props.sectionClass ? this.props.sectionClass : "";
     return (

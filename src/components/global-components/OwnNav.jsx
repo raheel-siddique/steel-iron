@@ -7,7 +7,7 @@ import './Navbar.css';
 
 
 const OwnNav=()=>{
-    let publicUrl = process.env.PUBLIC_URL + "/";
+    // let publicUrl = process.env.PUBLIC_URL + "/";
  
     return(
         <>

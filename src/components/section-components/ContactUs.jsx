@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 // import parse from 'html-react-parser';
 import { RightOutlined } from '@ant-design/icons';
+import Contact from '../commoncomponents/checkout/Contact';
 
-class AboutV1 extends Component {
+class ContactUs extends Component {
 
     render() {
 
@@ -31,34 +32,27 @@ class AboutV1 extends Component {
 			      <div className="col-lg-6 align-self-center">
 			        <div className="about-us-info-wrap">
 			          <div className="section-title-area ltn__section-title-2--- mb-20">
-			            <h6 className="section-subtitle section-subtitle-2 " style={{backgroundColor:'#FABF3A', color:'black'}}>About Us</h6>
-			            <h1 style={{color:'white'}} className="section-title">Iron & Steel Dealers, General Order Suppliers
+			            <h6 className="section-subtitle section-subtitle-2 " style={{backgroundColor:'#FABF3A', color:'black'}}>Contact Us</h6>
+			            <h1 style={{color:'white'}} className="section-title">Let's work together.
 </h1>
-			            <p style={{color:'silver', fontSize:23}}>we work to build your dreams into reality</p>
-			            <p style={{color:'white', fontSize:18}}>Noor and campanys Maxima bars are perfect for all types of residential, commercial & mega
+<h1 style={{color:'white', fontSize:22}} className="section-title">Head office</h1>
+			            <p style={{color:'silver', fontSize:18}}>L-8 2,Al Naseer Suare F.B Area Karachi
 infrastructure projects in Pakistan ,While we produce rebars in standard length of 12 meters</p>
 
-			          </div>
-			          {/* <ul className="ltn__list-item-half clearfix">
-			            <li>
-			              <i className="flaticon-home-2" />
-			              Smart Home Design
-			            </li>
-			            <li>
-			              <i className="flaticon-mountain" />
-			              Beautiful Scene Around
-			            </li>
-			            <li>
-			              <i className="flaticon-heart" />
-			              Exceptional Lifestyle
-			            </li>
-			            <li>
-			              <i className="flaticon-secure" />
-			              Complete 24/7 Security
-			            </li>
-			          </ul> */}
-			          <div className="ltn__callout bg-overlay-theme-05  mt-30">
-			            <p style={{color:'silver', fontSize:23}}>"risk a deal embrace a bigger target" </p>
+
+
+  {/* sec */}
+
+<h1 style={{color:'white', fontSize:22, paddingTop:20}} className="section-title">Phone Number</h1>
+			            <p style={{color:'silver', fontSize:18}}>0300-3693228</p>
+
+
+{/* third */}
+<h1 style={{color:'white', fontSize:22, paddingTop:20}} className="section-title">Email Address</h1>
+			            <p style={{color:'silver', fontSize:18}}>muhammediqbal383@gmail.com</p>
+
+  
+
 			          </div>
 			        
 					  <div className="btn-wrapper animated ">
@@ -67,7 +61,7 @@ infrastructure projects in Pakistan ,While we produce rebars in standard length 
                           className="theme-btn-1 btn btn-effect-1 own_btn_getStart"
                         
                         >
-                          Our Services  <RightOutlined style={{position:'relative', bottom:4}} />
+                          Contact Us   <RightOutlined style={{position:'relative', bottom:4}} />
                         </Link>
                       </div>
 			        </div>
@@ -78,4 +72,4 @@ infrastructure projects in Pakistan ,While we produce rebars in standard length 
         }
 }
 
-export default AboutV1
+export default ContactUs

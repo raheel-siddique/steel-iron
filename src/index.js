@@ -29,7 +29,7 @@ const Root = () => {
     <BrowserRouter basename="/">
       <div>
         <Switch>
-          <Route exact path="/steel-iron" component={Home} />
+          <Route exact path="/" component={Home} />
           {/* <Route exact path="/marketplace" component={Marketplace} /> */}
           
 

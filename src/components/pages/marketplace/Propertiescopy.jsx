@@ -43,16 +43,10 @@ const Properties = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title-area ltn__section-title-2--- text-center">
-                  {/* <h6 style={{backgroundColor:'#FABF3A', color:'black'}} className="section-subtitle section-subtitle-2 ">
-               Our Client Roaster
-              </h6> */}
-              <h1 style={{color:'white'}} className="section-title">               Our Client Roaster</h1>
-
-
-
-            	            <p style={{color:'silver', fontSize:20, width:'70%', margin:'auto'}}  className="section-title">From our early days, we've been providing reliable service to our clientele.
-We've had the honor being the firm of choice of the following corporations:
-</p>
+                  <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">
+                Properties
+              </h6>
+                     <h1 className="section-title">Featured Listings</h1>
                 </div>
               </div>
             </div>
@@ -61,21 +55,57 @@ We've had the honor being the firm of choice of the following corporations:
                       <div className="col-lg-4" >
                         <div className="ltn__product-item ltn__product-item-4 text-center---">
                           <div className="product-img go-top">
+                            <Link to={`/propertydetails/1`}>
                               <img
-                              style={{height:250}}
                                 className="img-fluid imgprop"
                                 alt="properties"
                                 src={
-                                 `assets/img/property/download.jpeg`
+                                 `assets/img/property/property_1_4.jpeg`
                                 }
                               />
+                            </Link>
 
-                            
+                            <div className="product-img-location-gallery">
+                              <div className="product-img-location">
+                                <ul>
+                                  <li>
+                                    <Link
+                                      to={`/propertydetails/1`}
+                                    >
+                                      <i className="flaticon-pin" />
+                                      karachi
+                                    </Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="product-img-gallery go-top">
+                          <ul>
+                            <li>
+                              <Link to="/product-details">
+                                <i className="fas fa-camera" /> 4
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to="/product-details">
+                                <i className="fas fa-film" /> 2
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                            </div>
                           </div>
                           <div className="product-info">
-                           
-                            <h2 style={{fontSize:18, color:'black'}} className="product-title go-top text-capitalize text-center " >
-                          Abdullah Builders
+                            <div className="product-price">
+                              <span>
+                                $
+                               10000
+                                <label>/Month</label>
+                              </span>
+                            </div>
+                            <h2 className="product-title go-top text-capitalize">
+                              <Link to={`/propertydetails/1`}>
+                          karachi
+                              </Link>
                             </h2>
                             
                        
@@ -89,21 +119,57 @@ We've had the honor being the firm of choice of the following corporations:
                      <div className="col-lg-4" >
                         <div className="ltn__product-item ltn__product-item-4 text-center---">
                           <div className="product-img go-top">
+                            <Link to={`/propertydetails/1`}>
                               <img
-                              style={{height:250}}
                                 className="img-fluid imgprop"
                                 alt="properties"
                                 src={
-                                 `assets/img/property/aghakhan (3).jpeg`
+                                 `assets/img/property/property_1_4.jpeg`
                                 }
                               />
+                            </Link>
 
-                            
+                            <div className="product-img-location-gallery">
+                              <div className="product-img-location">
+                                <ul>
+                                  <li>
+                                    <Link
+                                      to={`/propertydetails/1`}
+                                    >
+                                      <i className="flaticon-pin" />
+                                      karachi
+                                    </Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="product-img-gallery go-top">
+                          <ul>
+                            <li>
+                              <Link to="/product-details">
+                                <i className="fas fa-camera" /> 4
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to="/product-details">
+                                <i className="fas fa-film" /> 2
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                            </div>
                           </div>
                           <div className="product-info">
-                           
-                            <h2 style={{fontSize:18, color:'black'}} className="product-title go-top text-capitalize text-center " >
-                            Aga khan School karimabad
+                            <div className="product-price">
+                              <span>
+                                $
+                               10000
+                                <label>/Month</label>
+                              </span>
+                            </div>
+                            <h2 className="product-title go-top text-capitalize">
+                              <Link to={`/propertydetails/1`}>
+                          karachi
+                              </Link>
                             </h2>
                             
                        
@@ -113,26 +179,61 @@ We've had the honor being the firm of choice of the following corporations:
                      
                      
                      </div>
-
 
                      <div className="col-lg-4" >
                         <div className="ltn__product-item ltn__product-item-4 text-center---">
                           <div className="product-img go-top">
+                            <Link to={`/propertydetails/1`}>
                               <img
-                              style={{height:250}}
                                 className="img-fluid imgprop"
                                 alt="properties"
                                 src={
-                                 `assets/img/property/301494527_505330601592867_1219295046825265734_n.jpg`
+                                 `assets/img/property/property_1_4.jpeg`
                                 }
                               />
+                            </Link>
 
-                            
+                            <div className="product-img-location-gallery">
+                              <div className="product-img-location">
+                                <ul>
+                                  <li>
+                                    <Link
+                                      to={`/propertydetails/1`}
+                                    >
+                                      <i className="flaticon-pin" />
+                                      karachi
+                                    </Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="product-img-gallery go-top">
+                          <ul>
+                            <li>
+                              <Link to="/product-details">
+                                <i className="fas fa-camera" /> 4
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to="/product-details">
+                                <i className="fas fa-film" /> 2
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                            </div>
                           </div>
                           <div className="product-info">
-                           
-                            <h2 style={{fontSize:18, color:'black'}} className="product-title go-top text-capitalize text-center " >
-                          Executive Builders
+                            <div className="product-price">
+                              <span>
+                                $
+                               10000
+                                <label>/Month</label>
+                              </span>
+                            </div>
+                            <h2 className="product-title go-top text-capitalize">
+                              <Link to={`/propertydetails/1`}>
+                          karachi
+                              </Link>
                             </h2>
                             
                        
@@ -143,98 +244,6 @@ We've had the honor being the firm of choice of the following corporations:
                      
                      </div>
                      
-
-
-                     <div className="col-lg-4" >
-                        <div className="ltn__product-item ltn__product-item-4 text-center---">
-                          <div className="product-img go-top">
-                              <img
-                              style={{height:250}}
-                                className="img-fluid imgprop"
-                                alt="properties"
-                                src={
-                                 `assets/img/property/images.jpeg`
-                                }
-                              />
-
-                            
-                          </div>
-                          <div className="product-info">
-                           
-                            <h2 style={{fontSize:18, color:'black'}} className="product-title go-top text-capitalize text-center " >
-                            water board karachi
-                            </h2>
-                            
-                       
-                          </div>
-
-                     </div>
-                     
-                     
-                     </div>
-                     
-
-
-                     <div className="col-lg-4" >
-                        <div className="ltn__product-item ltn__product-item-4 text-center---">
-                          <div className="product-img go-top">
-                              <img
-                              style={{height:250}}
-                                className="img-fluid imgprop"
-                                alt="properties"
-                                src={
-                                 `assets/img/property/download (1).jpeg`
-                                }
-                              />
-
-                            
-                          </div>
-                          <div className="product-info">
-                           
-                            <h2 style={{fontSize:18, color:'black'}} className="product-title go-top text-capitalize text-center " >
-                            interhome company
-                            </h2>
-                            
-                       
-                          </div>
-
-                     </div>
-                     
-                     
-                     </div>
-                     
-
-
-                     <div className="col-lg-4" >
-                        <div className="ltn__product-item ltn__product-item-4 text-center---">
-                          <div className="product-img go-top">
-                              <img
-                              style={{height:250}}
-                                className="img-fluid imgprop"
-                                alt="properties"
-                                src={
-                                 `assets/img/property/image1.jpg`
-                                }
-                              />
-
-                            
-                          </div>
-                          <div className="product-info">
-                           
-                            <h2 style={{fontSize:18, color:'black'}} className="product-title go-top text-capitalize text-center " >
-                            shaheen complex
-                            </h2>
-                            
-                       
-                          </div>
-
-                     </div>
-                     
-                     
-                     </div>
-                     
-
-
                      </div>
 
                      

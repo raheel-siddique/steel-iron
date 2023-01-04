@@ -6,7 +6,7 @@ class Testimonial extends Component {
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
+        // let imagealt = 'image'
 
     return <div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-70" data-bs-bg={publicUrl+"assets/img/bg/20.jpg"}>
 			  <div className="container">
