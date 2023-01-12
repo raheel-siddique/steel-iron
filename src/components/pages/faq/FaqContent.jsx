@@ -4,20 +4,21 @@ import { Link } from "react-router-dom";
 const FaqContent = () => {
   return (
     <>
-      <div className="ltn__faq-area mb-90">
+      <div className="ltn__faq-area mb-90" style={{position:"relative", top:80, marginBottom:150}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title-area ltn__section-title-2--- text-center">
-                {/* <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">
+                <h6 style={{backgroundColor:'#FABF3A', color:'black'}} className="section-subtitle section-subtitle-2 ltn__secondary-color">
                   Customer Support
-                </h6> */}
-                <h1 className="section-title">Frequently Asked Questions</h1>
+                </h6>
+                <h1 className="section-title" style={{color:'white'}}>Frequently Asked Questions</h1>
               </div>
               <div className="ltn__faq-inner ltn__faq-inner-2">
                 <div id="accordion_2">
                   <div className="card">
                     <h6
+                  
                       className="collapsed ltn__card-title"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-item-2-1"
@@ -1547,14 +1548,15 @@ const FaqContent = () => {
                     </div>
                   </div>
                   <div className="need-support text-center mt-100">
-                    <h2>Still need help? Reach out to support 24/7:</h2>
+                    <h2 style={{color:"white"}}>Still need help? Reach out to support 24/7:</h2>
                     <div className="btn-wrapper mb-30 go-top">
-                      <Link to="/contact" className="theme-btn-1 btn">
+                      <Link style={{color:'white', backgroundColor:'#FABF3A'}} to="/contact" className="theme-btn-1 btn">
                         Contact Us
                       </Link>
                     </div>
-                    <h3>
-                      <i className="fas fa-phone" /> +0123-456-789
+                    <h3 style={{color:"white"}}>
+                      <i className="fas fa-phone" />                             0300-3693228
+
                     </h3>
                   </div>
                 </div>

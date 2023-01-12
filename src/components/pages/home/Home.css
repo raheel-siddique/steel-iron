@@ -1,6 +1,6 @@
 .home_main_box {
-    margin-left: 120px;
-    margin-right: 120px;
+    /* margin-left: 120px; */
+    /* margin-right: 120px; */
 }
 
 .hero_left_box {
@@ -8,6 +8,18 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+}
+
+.main_client_box {
+    height: 500px;
+    background-color: #ffffff;
+    line-height: "normal";
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .hero_right_sec_img {
@@ -66,6 +78,22 @@
     /* Inside auto layout */
 }
 
+/* .portfolio-slider {
+    width: 800px;p
+    background-color: red;
+} */
+.newmine {
+    width: 160px;
+    height: 160px;
+}
+
+.newmine:hover {
+    width: 170px;
+    height: 170px;
+    box-shadow: 1px 1px 10px #FABF3A;
+    border-radius: 50%;
+}
+
 .own_btn_getStart {
     /* background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%); */
     background-color: #FABF3A;
@@ -73,6 +101,21 @@
     box-shadow: 1px 1px 5px silver;
 
     /* box-shadow: 1px 1px 7px silver; */
+}
+
+.image_slider_main_box {
+    background-image: url("../../../../public/assets/img/property/iron1.webp");
+    /* The image used */
+    /* background-color: #cccccc; */
+    /* Used if the image is unavailable */
+    height: 560px;
+    /* You must set a specified height */
+    background-position: left;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
 }
 
 @media (max-width: 767px) {
@@ -102,9 +145,22 @@
         color: red;
     }
 
-    .forcolordivmbdev {
-        background-color: rgb(101, 181, 250);
 
+    .newmine {
+        width: 90px;
+        height: 90px;
+    }
+
+    .main_client_box {
+        height: 450px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .newmine:hover {
+        width: 90px;
+        height: 90px;
+        box-shadow: 0px 0px 0px #FABF3A;
     }
 
 }

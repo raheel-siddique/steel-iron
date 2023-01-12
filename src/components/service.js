@@ -7,11 +7,19 @@ import ServiceV1 from "./section-components/service-v1";
 // import BlogSlider from "./pages/home/blog-slider-v1";
 // import CallToActionV1 from "./section-components/call-to-action-v1";
 import Footer from "./global-components/footer";
+import OwnNav from "./global-components/OwnNav";
+import { motion } from "framer-motion";
 
 const Service_V1 = () => {
   return (
-    <div>
-      <Navbar />
+    <motion.div 
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0}}
+
+     
+    >
+      <OwnNav />
       <PageHeader pageTitle="Services" />
 
       {/* <AboutV5 /> */}
@@ -19,7 +27,7 @@ const Service_V1 = () => {
       {/* <BlogSlider sectionClass="pt-120" /> */}
       {/* <CallToActionV1 /> */}
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 

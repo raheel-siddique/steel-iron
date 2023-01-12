@@ -39,57 +39,57 @@ const Footer_v1 = () => {
   return (
     <>
       <footer style={{padding:0}} className="ltn__footer-area">
-        <div  style={{backgroundColor:"silver"}} className="footer-top-area  section-bg-2 plr--5">
+        <div  style={{backgroundColor:"white", border:"1px solid silver", marginLeft:10,marginRight:10}} className="footer-top-area  section-bg-2 plr--5">
           <div className="container">
             <div className="row">
-              <div className="col-xl-3 col-md-6 col-sm-6 col-12">
+              <div className="col-xl-4 col-md-6 col-sm-6 col-12">
                 <div className="footer-widget footer-about-widget">
                   <div className="site-logo-wrap">
                     <div className="site-logo go-top">
                       <Link to="/">
-                        <img
+                      <img
                           style={{ width: 200 }}
                           className="img-fluid"
                           src={
-                            publicUrl + "assets/img/Smart-crowd-logo-02 (1).png"
+                       
+                            "assets/img/banner/amreli-logo.png"
                           }
                           alt="Logo"
                         />
                       </Link>
                     </div>
                   </div>
-                  <p className="justify-text mt-2">
-                    owners can collect revenue from rent, and vote on property
-                    decisions.
+                  <p className="justify-text mt-2" style={{color:'gray'}}>
+                  Jav Traders Maxima bars are perfect for all types of residential
                   </p>
                   <div className="footer-address">
                     <ul>
                       <li>
                     <div className="footer-address-icon">
-                          <i className="icon-placeholder" />
+                          <i className="icon-placeholder" style={{color:'gold'}} />
                         </div> 
                         <div className="footer-address-info">
-                          <p>Brooklyn, New York, United States</p>
+                          <p style={{color:'black'}}>L-8 2,Al Naseer Suare F.B Area Karachi</p>
                         </div> 
                       </li>
                       <li>
                         <div className="footer-address-icon">
-                          <i className="icon-call" />
+                          <i className="icon-call" style={{color:'red'}} />
                         </div>
                         <div className="footer-address-info">
-                          <p>
-                            <a href="tel:+1 (409) 995-3450">+1 (409) 995-3450</a>
+                          <p style={{color:'black'}}>
+                            0300-3693228
                           </p>
                         </div>
                       </li>
                       <li>
                         <div className="footer-address-icon">
-                          <i className="icon-mail" />
+                          <i className="icon-mail" style={{color:'gold'}} />
                         </div>
                         <div className="footer-address-info">
-                          <p>
-                            <a href="mailto:support@smartcrowd.cc">
-                              support@smartcrowd.cc
+                          <p style={{color:'black'}}>
+                            <a href="mailto:muhammediqbal383@gmail.com">
+                            muhammediqbal383@gmail.com
                             </a>
                           </p>
                         </div>
@@ -101,74 +101,61 @@ const Footer_v1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-md-6 col-sm-6 col-12">
+              <div className="col-xl-4 col-md-6 col-sm-6 col-12" style={{margin:'auto'}}>
                 <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title">Company</h4>
+                  <h4 className="footer-title" style={{color:'black'}}>Company</h4>
                   <div className="footer-menu go-top">
                     <ul>
-                      <li>
+                      <li style={{color:'black'}}>
                         <Link to="/about">About</Link>
                       </li>
-                      <li>
-                        <Link to="/blog-grid">Blog</Link>
+                      
+                      <li style={{color:'black'}}>
+                        <Link to="/shop">Products</Link>
                       </li>
-                      <li>
-                        <Link to="/shop">All Products</Link>
-                      </li>
-                      <li>
+                      <li style={{color:'black'}}>
                         <Link to="/contact">Contact</Link>
                       </li>
-                      <li>
+                      <li style={{color:'black'}}>
                         <Link to="/faq">FAQs</Link>
                       </li>
-                      <li>
-                        <Link to="/marketplace">All Properties</Link>
-                      </li>
-                      <li>
+                     
+                      <li style={{color:'black'}}>
                         <Link to="/contact">Contact us</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-md-6 col-sm-6 col-12">
+              <div className="col-xl-4 col-md-6 col-sm-6 col-12" style={{margin:'auto'}}>
                 <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title">Services</h4>
+                  <h4 className="footer-title" style={{color:'black'}}>Services</h4>
+                  <div className="footer-menu go-top">
+                    <ul>
+                      <li style={{color:'black'}}>
+                        <Link to="/services">Services</Link>
+                      </li>
+                      
+                      <li style={{color:'black'}}>
+                        <Link to="/">Products</Link>
+                      </li>
+                      <li style={{color:'black'}}>
+                        <Link to="/contact">Contact</Link>
+                      </li>
+                      <li style={{color:'black'}}>
+                        <Link to="/faq">FAQs</Link>
+                      </li>
+                     
+                      <li style={{color:'black'}}>
+                        <Link to="/contact">Contact us</Link>
+                      </li>
+                    </ul>
+                  </div>
                  
                 </div>
               </div>
-              <div className="col-xl-2 col-md-6 col-sm-6 col-12">
-                <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title">Customer Care</h4>
-                
-                </div>
-              </div>
-              <div className="col-xl-3 col-md-6 col-sm-12 col-12">
-                <div className="footer-widget footer-newsletter-widget">
-                  <h4 className="footer-title">Newsletter</h4>
-                  <p>
-                    Subscribe to our weekly Newsletter and receive updates via
-                    email.
-                  </p>
-                  <div className="footer-newsletter">
-                    <form action="#">
-                      <input type="email" name="email" placeholder="Email*" />
-                      <div className="btn-wrapper">
-                        <button className="theme-btn-1 btn" type="submit">
-                          <i className="fas fa-location-arrow" />
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  <h5 className="mt-30">We Accept</h5>
-
-                  <img
-                    className="coinbasepic img-fluid img-thumbnail"
-                    src={publicUrl + "assets/img/icons/coinbase_logo.png"}
-                    alt="Payment"
-                  />
-                </div>
-              </div>
+          
+            
             </div>
           </div>
         </div>

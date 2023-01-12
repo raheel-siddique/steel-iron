@@ -6,7 +6,7 @@ class TeamV2 extends Component {
     let publicUrl = process.env.PUBLIC_URL + "/";
 
     return (
-      <div className="ltn__team-area pt-110--- pb-90">
+      <div className="ltn__team-area pt-110--- pb-90" style={{position:"relative", top:100, marginBottom:100}}>
         <div className="container">
           <div className="row justify-content-center go-top">
             <div className="col-lg-4 col-sm-6">
@@ -20,8 +20,8 @@ class TeamV2 extends Component {
                   />
                 </div>
                 <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Rosalina D. William</Link>
+                  <h4 style={{color:'white'}} >
+                    Rosalina D. William
                   </h4>
                   <h6 className="ltn__secondary-color">Real Estate Broker</h6>
                   <div className="ltn__social-media">
@@ -57,8 +57,9 @@ class TeamV2 extends Component {
                   />
                 </div>
                 <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Kelian Anderson</Link>
+                <h4 style={{color:'white'}} >
+                  
+                    Kelian Anderson
                   </h4>
                   <h6 className="ltn__secondary-color">Selling Agents</h6>
                   <div className="ltn__social-media">
@@ -96,8 +97,9 @@ class TeamV2 extends Component {
                   />
                 </div>
                 <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Miranda H. Halim</Link>
+                <h4 style={{color:'white'}}>
+
+                Miranda H. Halim
                   </h4>
                   <h6 className="ltn__secondary-color">Property Seller</h6>
                   <div className="ltn__social-media">
@@ -134,8 +136,9 @@ class TeamV2 extends Component {
                   />
                 </div>
                 <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Damble D. Browni.</Link>
+                <h4 style={{color:'white'}} >
+                  
+                Damble D. Browni.
                   </h4>
                   <h6 className="ltn__secondary-color">Property Seller</h6>
                   <div className="ltn__social-media">
@@ -172,8 +175,9 @@ class TeamV2 extends Component {
                   />
                 </div>
                 <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Aiden Benjamin</Link>
+                <h4 style={{color:'white'}} >
+
+                    Aiden Benjamin
                   </h4>
                   <h6 className="ltn__secondary-color">Real Estate Broker</h6>
                   <div className="ltn__social-media">
@@ -210,8 +214,9 @@ class TeamV2 extends Component {
                   />
                 </div>
                 <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">James Carter</Link>
+                <h4 style={{color:'white'}} >
+
+                    James Carter
                   </h4>
                   <h6 className="ltn__secondary-color">Selling Agents</h6>
                   <div className="ltn__social-media">

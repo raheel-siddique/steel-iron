@@ -17,9 +17,9 @@ class ServiceV5 extends Component {
 					</div>
 				</div>
 				<div className="row  justify-content-center" >
-					<div  className="col-lg-4 col-sm-6 col-12">
-					<div  className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1" style={{backgroundColor:'silver'}}>
-						<div  className="ltn__feature-icon">
+					<div  className="col-lg-4 col-sm-6 col-12" >
+					<div  className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1" style={{backgroundColor:'silver', height:250}}>
+						<div   className="ltn__feature-icon">
 						<span><i className="flaticon-house" /></span>
 						</div>
 						<div className="ltn__feature-info">
@@ -29,7 +29,7 @@ class ServiceV5 extends Component {
 					</div>
 					</div>
 					<div className="col-lg-4 col-sm-6 col-12">
-					<div style={{backgroundColor:'silver'}} className="ltn__feature-item ltn__feature-item-6 text-center  box-shadow-1">
+					<div style={{backgroundColor:'silver',height:250}} className="ltn__feature-item ltn__feature-item-6 text-center  box-shadow-1">
 						<div className="ltn__feature-icon">
 						<span><i className="flaticon-mortgage" /></span>
 						</div>
@@ -40,7 +40,7 @@ class ServiceV5 extends Component {
 					</div>
 					</div>
 					<div className="col-lg-4 col-sm-6 col-12">
-					<div style={{backgroundColor:'silver'}} className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1">
+					<div style={{backgroundColor:'silver',height:250}} className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1">
 						<div className="ltn__feature-icon">
 						<span><i className="flaticon-operator" /></span>
 						</div>

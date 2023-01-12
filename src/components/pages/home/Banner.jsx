@@ -14,16 +14,18 @@ const Banner=()=>{
           xs={24}
           className='hero_left_box'
         >
-          <div className='imgae_hero_content_box'>
-          <h1 style={{color:'white'}} className="section-title">Company Profile
+          {/* <div className="slide-item-info-inner ltn__slide-animation"> */}
+          <div className='imgae_hero_content_box '>
+          <h1 style={{color:'white'}} className="section-title slide-sub-title white-color--- animated">Company Profile
 			             </h1>
     
-            <p className='imgae_hero_description_first'>
+            <p className='imgae_hero_description_first slide-title animated '>
             Established in 1972, a company strived to be at its
 foremost, a solution to individuals, local and
 international businesses. the company has always
 believed in staying ahead of the curve.
                </p>
+               {/* </div> */}
                           <div className="btn-wrapper animated ">
                         <Link
                           to="/marketplace"

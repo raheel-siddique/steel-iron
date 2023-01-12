@@ -9,11 +9,12 @@ import PageHeader from "./global-components/page-header";
 // import CallToActionV1 from "./section-components/call-to-action-v1";
 import Footer from "./global-components/footer";
 import About_v1 from './about';
+import OwnNav from "./global-components/OwnNav";
 
 const About_v1_Own = () => {
   return (
     <div>
-      <Navbar />
+      <OwnNav />
       <PageHeader headertitle="About Us" />
       <About_v1 />
      

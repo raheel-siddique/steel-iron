@@ -1,0 +1,11 @@
+.main_client_box {
+    height: 500;
+    background-color: #ffffff;
+    line-height: "normal";
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

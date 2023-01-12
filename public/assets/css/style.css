@@ -14888,8 +14888,8 @@ input.cart-plus-minus-box {
 }
 
 .ltn__faq-inner-2 .card .ltn__card-title::before {
-  background-color: var(--section-bg-1);
-  color: var(--ltn__primary-color);
+  /* background-color: white; */
+  /* color: white; */
   font-size: 16px;
   height: 40px;
   width: 40px;
@@ -14898,7 +14898,7 @@ input.cart-plus-minus-box {
 }
 
 .ltn__faq-inner-2 .card .ltn__card-title[aria-expanded="true"] {
-  background-color: transparent;
+  background-color: white;
   color: var(--ltn__primary-color);
 }
 
